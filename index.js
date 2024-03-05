@@ -39,7 +39,6 @@ ffmpeg('tmp/' + file.filename)
 
 .on("error", (error) => {
     console.log(error);
-    //TODO: apaga mp4
 })
 .saveToFile(__dirname + fileName);
 
